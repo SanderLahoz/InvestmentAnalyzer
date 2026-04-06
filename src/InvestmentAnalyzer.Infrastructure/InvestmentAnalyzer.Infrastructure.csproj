@@ -4,6 +4,12 @@
     <ProjectReference Include="..\InvestmentAnalyzer.Core\InvestmentAnalyzer.Core.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Database\" />
+    <Folder Include="Repository\" />
+    <Folder Include="Service\" />
+  </ItemGroup>
+
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>

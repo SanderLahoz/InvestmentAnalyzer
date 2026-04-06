@@ -14,4 +14,8 @@
     <ProjectReference Include="..\InvestmentAnalyzer.Infrastructure\InvestmentAnalyzer.Infrastructure.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Controller\" />
+  </ItemGroup>
+
 </Project>
