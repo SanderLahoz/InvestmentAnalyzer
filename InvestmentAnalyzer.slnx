@@ -1,0 +1,16 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Folder Name="/src/">
+    <Project Path="src/InvestmentAnalyzer.Api/InvestmentAnalyzer.Api.csproj" />
+    <Project Path="src/InvestmentAnalyzer.Core/InvestmentAnalyzer.Core.csproj" />
+    <Project Path="src/InvestmentAnalyzer.Infrastructure/InvestmentAnalyzer.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/test/">
+    <Project Path="test/InvestmentAnalyzer.Integration/InvestmentAnalyzer.Integration.csproj" />
+    <Project Path="test/InvestmentAnalyzer.Unit/InvestmentAnalyzer.Unit.csproj" />
+  </Folder>
+</Solution>
